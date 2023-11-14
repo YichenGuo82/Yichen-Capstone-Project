@@ -279,7 +279,6 @@ patient_labels.reset_index(inplace=True, drop=True)
 latent_vars['labels'] = patient_labels
 # +
 
-from torch.utils.tensorboard import SummaryWriter
 # Create a figure to hold the subplots
 fig, axs = plt.subplots(1, 3, figsize=(20, 6))
 
